@@ -1,0 +1,40 @@
+button {
+    background-color: #4CAF50;
+    border-radius: 3px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: -webkit-max-content;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+body * {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#arrayDisp {
+    width: -webkit-max-content;
+    height: -webkit-max-content;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline red;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+    width: 15rem;
+}
+
+input[type="text"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(76, 175, 80, 0.6);
+}

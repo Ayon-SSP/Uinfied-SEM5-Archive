@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="01.xsl" type="text/xsl"?>
+<CD_CATLOGUE>
+    <CD>
+        <title>You</title>
+        <singer>Regard,Torye Sivan</singer>
+        <genre>Dance/Electronic</genre>
+        <year>2020</year>
+    </CD>
+    <CD>
+        <title>FairyTale</title>
+        <singer>Alexander Rybak</singer>
+        <genre>pop,folk</genre>
+        <year>2021</year>
+    </CD>
+    <CD>
+        <title>Comedy</title>
+        <singer>Gen Hoshimo</singer>
+        <genre>j-pop</genre>
+        <year>2022</year>
+    </CD>
+    <CD>
+        <title>Maradona</title>
+        <singer>The ChainSmokers</singer>
+        <genre>Dance/Electronic, pop</genre>
+        <year>2022</year>
+    </CD>
+    <CD>
+        <title>Why Do you love -R3HAB Remix</title>
+        <singer>The ChainSmoker, 5 seconds of summer, R3HAB</singer>
+        <genre>Dance/Electronic</genre>
+        <year>2021</year>
+    </CD>
+    <CD>
+        <title>Teeth</title>
+        <singer>5 seconds of summer</singer>
+        <genre>Dance/Electronic, pop</genre>
+        <year>2022</year>
+    </CD>
+    <CD>
+        <title>The Drum</title>
+        <singer>Alan Walker</singer>
+        <genre>Dance/Electronic, pop</genre>
+        <year>2022</year>
+    </CD>
+    <CD>
+        <title>Peace of Mind</title>
+        <singer>Lost Stories, KASYAP</singer>
+        <genre>Alternative/Indie</genre>
+        <year>2020</year>
+    </CD>
+    <CD>
+        <title>Steay</title>
+        <singer>Bebe Rexha</singer>
+        <genre>pop</genre>
+        <year></year>
+    </CD>
+    <CD>
+        <title>Ripitide</title>
+        <singer>The chainsmokers</singer>
+        <genre>Dance/Electronic, pop</genre>
+        <year>2022</year>
+    </CD>
+</CD_CATLOGUE>

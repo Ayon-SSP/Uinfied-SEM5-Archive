@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>
+            Prac 9 BB
+        </title>
+
+        <style>
+            input[type="text"] {
+                padding: 10px;
+                border: #16dcbf 1px solid;
+                border-radius: 5px;
+                margin: 4px;
+            }
+            h1 {
+                color: white;
+                text-decoration-line: underline;
+            }
+            h1:hover {
+                text-decoration:underline dotted;
+            }
+        </style>
+
+        <link rel="stylesheet" type="text/css" href="prac9.css">
+    </head>
+    <body>
+        <h1 id="head" align="center" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+            Student Reg From
+        </h1>
+        <form>
+            <input type="text" name="first name" placeholder="First Name"><br>
+            <input type="text" name="Middle Name" placeholder="Middle Name"><br>
+            <input type="text" name="last name" placeholder="Last Name"><br>
+            
+            <input type="radio" name="gender" value="male"> Male </input><br>
+            <input type="radio" name="gender" value="male"> Female </input><br>
+            
+            <input type="text" name="email" placeholder="Email">
+            <input type="tel" name="phone" placeholder="Phone"><br>
+            <input type="date" name="birthday" placeholder="Birthday"><br>
+
+            <input type="text" name="city" placeholder="city">
+            <input type="text" name="state" placeholder="state">
+            
+            <select>
+                <option value="PIET"> PIET </option>
+                <option value="PIT"> PIT </option>
+                <option value="PIET"> PIET </option>
+                <option value="PIT"> PIT </option>
+                <option value="PIET"> PIET </option>
+                <option value="PIT"> PIT </option>
+            </select><br>
+
+            <input type="checkbox" name="hobbies" value="hobby1">Gaming<br>
+            <input type="checkbox" name="hobbies" value="hobby2">Gaming<br>
+            <input type="checkbox" name="hobbies" value="hobby3">Gaming<br>
+            <textarea name="address" placeholder="Address" rows="5"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            <button onclick="alert('your form is Canceled go home')">Cancel 💥</button>
+        </form>
+    </body>
+</html>

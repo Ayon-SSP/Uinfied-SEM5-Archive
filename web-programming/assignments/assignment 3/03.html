@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+    <script>
+        function validate(username, password) {
+            var actual_username = "zman";
+            var actual_password = "squad001";
+        
+            return (username == actual_username && password == password)
+        }
+        
+        function do_submit() {
+            var username = document.forms["login"]["username"].value;
+            var password = document.forms["login"]["password"].value;
+            var cons = document.getElementById("cons")
+        
+            // null check
+            if (username.length == 0 || password.length == 0) {
+                cons.innerHTML = "Please enter credentials.."
+                return
+            }
+        
+            if (validate(username, password)) {
+                cons.innerHTML = "Access Granted : message = 0x001/01/#0x"
+                console.log("EXEC DONE")
+            }
+            else {
+                cons.innerHTML = "Access Denied"
+                console.log("EXEC DONE")
+            }
+        }        
+    </script>
+    </head>
+    <body>
+        <h1>User passthrough</h1>
+        <form name="login">
+            <p>
+                <input type="text" name="username" id="username">
+            </p>
+            <p>
+                <input type="password" name="password" id="password">
+            </p>
+        </form>
+        <button onclick="do_submit()">
+            submit_0
+        </button>
+        <p id="cons">[ENTER CREDENTIALS]</p>
+    </body>
+</html>
